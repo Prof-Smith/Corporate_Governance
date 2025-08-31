@@ -12,8 +12,8 @@ if 'start_time' not in st.session_state:
 
 st.title("Corporate Governance Simulation")
 
-# Countdown timer (10 minutes)
-countdown = timedelta(minutes=10) - (datetime.now() - st.session_state.start_time)
+# Countdown timer (15 minutes)
+countdown = timedelta(minutes=15) - (datetime.now() - st.session_state.start_time)
 if countdown.total_seconds() > 0:
     st.info(f"Time remaining: {str(countdown).split('.')[0]}")
 else:
