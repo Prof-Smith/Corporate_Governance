@@ -7,7 +7,6 @@ This Streamlit app simulates decision-making in corporate governance. Students a
 
 ## Features
 - Interactive decision-making scenarios
-- Countdown timer (10 minutes)
 - Score calculation based on governance best practices
 - Reflection input for students to explain their strategy
 - Tailored feedback based on specific choices and overall score
